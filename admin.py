@@ -26,7 +26,7 @@ async def admin_panel(update: Update, context: ContextTypes.DEFAULT_TYPE):
          InlineKeyboardButton("🗑️ Delete Brand", callback_data="del_b_start")],
         [InlineKeyboardButton("💰 Change Price", callback_data="cp_start"),
          InlineKeyboardButton("📢 Announce", callback_data="ann_start")],
-        [InlineKeyboardButton("👥 Get Users List", callback_data="admin_users")],
+        [InlineKeyboardButton("👥 Get all Users", callback_data="admin_users")],
         [InlineKeyboardButton("❌ Exit", callback_data="admin_cancel")]
     ]
     
